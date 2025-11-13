@@ -27,7 +27,8 @@ class TestCalculator(unittest.TestCase):
 
     def test_divide(self): # 3 assertions
         self.assertEqual(1, div(1, 1))
-        self.assertRaises(ZeroDivisionError, div(0,1))
+        with self.assertRaises(ZeroDivisionError):
+            div(0,1)
         self.assertEqual(-1, div(1, -1))
 
     # ##########################
