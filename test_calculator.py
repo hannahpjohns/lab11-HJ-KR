@@ -65,11 +65,11 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(5, hypotenuse(-3, 4))
         self.assertEqual(5, hypotenuse(-3, -4))
 
-def test_sqrt(self): # 3 assertions
-    with self.assertRaises(ValueError):
-        square_root(-25)
-    self.assertEqual(1, square_root(1))
-    self.assertEqual(0, square_root(0))
+    def test_sqrt(self): # 3 assertions
+        with self.assertRaises(ValueError):
+            square_root(-25)
+        self.assertEqual(1, square_root(1))
+        self.assertEqual(0, square_root(0))
     #     # Test basic function
     #     fill in code
     ##########################
