@@ -1,3 +1,7 @@
+# https://github.com/hannahpjohns/lab11-HJ-KR.git
+# Partner 1: Hannah Johns
+# Partner 2: Kaydence Rao
+
 import unittest
 from calculator import *
 
